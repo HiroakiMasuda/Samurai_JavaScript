@@ -4,28 +4,16 @@
     <title>JavaScriptの練習</title>
   </head>
   <body>
-    <script>
-  　
-    const weights = [60,65,70,80,90]
-      weights.forEach(weight => {
-  
+  <script>
+    const user = {
+        
+        name: '太郎',
+        age: 30,
+        area: "東京都"
+        
+    };
 
-          if(weight >=80){
-            console.log('もっと頑張りましょう');
-          }  
-           else if(weight >=70){
-            console.log('確実に成果が出ていますよ');
-           }
-            
-          else if(weight >60){
-            console.log('ついにここまで来ましたね');
-          }
-            
-          else if(weight <=60){
-            console.log('ダイエット成功です！');
-          }
-  
-      })
-    </script>
-  </body>
+    console.log(user);
+  </script>
+</body>
 </html>
